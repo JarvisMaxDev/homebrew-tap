@@ -1,6 +1,6 @@
 cask "aitranslator" do
-  version "1.5.0"
-  sha256 "32c1c58bdfb80f0a9e1c38e800deb48826ebabac59493b97a6dda3ec3229eaef"
+  version "1.5.1"
+  sha256 "9f945ae273b2b00424ed5c436c3ab239d2315c4b4f2ab91d019e7aeb609b1318"
 
   url "https://github.com/JarvisMaxDev/AITranslator/releases/download/v#{version}/AITranslator.dmg"
   name "AI Translator"
