@@ -11,6 +11,10 @@ cask "aitranslator" do
 
   app "AI Translator.app"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/AI Translator.app"]
+  end
+
   zap trash: [
     "~/.aitranslator",
     "~/Library/Preferences/com.aitranslator.app.plist",
