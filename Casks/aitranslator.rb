@@ -1,6 +1,6 @@
 cask "aitranslator" do
-  version "2.0.1"
-  sha256 "bc230033e2a22219eeffddef8d49c3526c3eae0a7e6bccbafdb042cdd374b9f9"
+  version "2.0.2"
+  sha256 "9af3e66c6a827d678980c28a003da169aaa0891a88e7f59bed5a468b45e53a79"
 
   url "https://github.com/JarvisMaxDev/AITranslator/releases/download/v#{version}/AITranslator.dmg"
   name "AI Translator"
@@ -10,10 +10,6 @@ cask "aitranslator" do
   depends_on macos: ">= :sonoma"
 
   app "AI Translator.app"
-
-  postflight do
-    system_command "/usr/bin/xattr", args: ["-cr", "#{appdir}/AI Translator.app"]
-  end
 
   zap trash: [
     "~/.aitranslator",
