@@ -7,7 +7,7 @@ cask "aitranslator" do
   desc "Native macOS AI translator with global hotkey"
   homepage "https://github.com/JarvisMaxDev/AITranslator"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "AI Translator.app"
 
