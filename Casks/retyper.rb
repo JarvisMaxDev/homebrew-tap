@@ -1,6 +1,6 @@
 cask "retyper" do
-  version "0.10.0"
-  sha256 "3a98245941b79b9f8a579dff1f7cecdfd494d4724f5860158d7a10cc366cd311"
+  version "0.10.1"
+  sha256 "ca66f9d49df43875294d5077949b1ba28b1c4a99ff5f1f48a8af6933e4d0006f"
 
   url "https://github.com/JarvisMaxDev/ReTyper/releases/download/v#{version}/ReTyper-macOS-universal.dmg"
   name "ReTyper"
